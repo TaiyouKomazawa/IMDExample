@@ -1,0 +1,3 @@
+[submodule "IMDController"]
+	path = IMDController
+	url = https://github.com/TaiyouKomazawa/IMDController.git
