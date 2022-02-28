@@ -46,8 +46,8 @@ int main()
          */
         float m1_speed = 15 / 360.0; //15 deg/s
         float m2_speed = -45 / 360.0; //-45 deg/s
-        md.set_speed(IMDController::M1, m1_speed);
-        md.set_speed(IMDController::M2, m2_speed);
+        md.set_rps(IMDController::M1, m1_speed);
+        md.set_rps(IMDController::M2, m2_speed);
 
         if(md.state_updated()){ //もし状態が更新されたら
             /** 現在の状態を示す
